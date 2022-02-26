@@ -63,6 +63,6 @@ Attached are links to github and live links
 
 ## License
 
-This project is licensed under the [MIT]() License.
+This project is licensed under the [MIT](LICENCE) license.
 
 
