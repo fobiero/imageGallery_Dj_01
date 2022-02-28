@@ -30,15 +30,22 @@
     height: 200px;
 }
 
+a {
+    color: #000 !important;
+}
+
+
+/* buttons  */
+
 .btn-mre {
     width: 100%;
+    padding: .5rem 3rem;
     background: transparent;
     padding: .5rem;
     outline: none;
-    border: 1px solid #aaa;
+    /* border: 1px solid #aaa; */
     text-decoration: none;
     list-style: none;
-    /* text-align: center; */
 }
 
 .btn-mre:hover {
@@ -46,10 +53,3 @@
     color: #fff;
     transition: background-color .5s;
 }
-
-
-/* .card-body a {
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-} */
