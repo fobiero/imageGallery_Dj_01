@@ -3,3 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.gallery input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #eee;
+    /* border-radius: 10px; */
+    padding: .5rem;
+    color: #aaa;
+    margin: 1rem 0rem 2rem 0;
+}
+
+.list-group {
+    cursor: pointer;
+}
+
+.card img {
+    height: 200px;
+}
+
+.btn-mre {
+    width: 100%;
+    background: transparent;
+    padding: .5rem;
+    outline: none;
+    border: 1px solid #aaa;
+}
+
+.btn-mre:hover {
+    background-color: #000;
+    color: #fff;
+    transition: background-color .5s;
+}

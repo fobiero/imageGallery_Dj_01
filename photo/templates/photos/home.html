@@ -12,21 +12,53 @@
     <link rel="stylesheet" href="{% static 'css/custom.css' %}">
 </head>
 
-<body>
+<body class="mt-5">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <!-- navmenus  -->
-                <div class="nav_menu">
-                    <h1>category</h1>
+                <div class="card">
+                    <div class="card-header">Categories</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">All</li>
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
                 </div>
             </div>
+            <!-- navmenus  -->
             <div class="col-md-9">
-                <!-- gallery content  -->
                 <div class="gallery">
-                    <h1>gallery</h1>
+                    <input type="text" placeholder="Search..">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="{% static 'images/travel/img-1.jpg'%}" class="card-img-top" alt="Travel">
+                                <div class="card-body">
+                                    <button type="submit" class="btn-mre">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="{% static 'images/travel/img-2.jpeg'%}" class="card-img-top" alt="Travel">
+                                <div class="card-body">
+                                    <button type="submit" class="btn-mre">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="{% static 'images/travel/img-3.jpg'%}" class="card-img-top" alt="Travel">
+                                <div class="card-body">
+                                    <button type="submit" class="btn-mre">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-- gallery content  -->
         </div>
     </div>
 
