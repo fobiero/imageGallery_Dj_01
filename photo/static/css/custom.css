@@ -18,6 +18,10 @@
     cursor: pointer;
 }
 
+.card-header {
+    text-align: center;
+}
+
 .list-group-item {
     padding: 1rem .5rem;
 }
@@ -32,6 +36,9 @@
     padding: .5rem;
     outline: none;
     border: 1px solid #aaa;
+    text-decoration: none;
+    list-style: none;
+    /* text-align: center; */
 }
 
 .btn-mre:hover {
@@ -39,3 +46,10 @@
     color: #fff;
     transition: background-color .5s;
 }
+
+
+/* .card-body a {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+} */
