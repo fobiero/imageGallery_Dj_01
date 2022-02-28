@@ -50,6 +50,6 @@ a {
 
 .btn-mre:hover {
     background-color: #000;
-    color: #fff;
+    color: #fff !important;
     transition: background-color .5s;
 }
