@@ -18,6 +18,10 @@
     cursor: pointer;
 }
 
+.list-group-item {
+    padding: 1rem .5rem;
+}
+
 .card img {
     height: 200px;
 }
