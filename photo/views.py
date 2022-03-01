@@ -19,7 +19,7 @@ def home(request):
 
     return render(request, 'photos/home.html', all_cat)
 
-def viewPhoto(request, pk):
-    photo = Images.objects.get(id=pk)
+# def viewPhoto(request, pk):
+#     photo = Images.objects.get(id=pk)
 
-    return render(request, 'photos/photo.html',{'photo': photo})
+#     return render(request, 'photos/photo.html',{'photo': photo})
