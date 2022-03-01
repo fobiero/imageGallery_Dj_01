@@ -5,9 +5,13 @@ from .models import Category, Images, Location
 
 def home(request):
     categories = Category.objects.all()
-    all_cat = {'categories': categories}
+    image = Images.objects.all()
+
+    all_cat = {'categories': categories, 'image': image}
 
     return render(request, 'photos/home.html', all_cat)
 
 def viewPhoto(request, pk):
-    return render(request, 'photos/photo.html')
+    photo = Images.objects.get(id=pk)
+
+    return render(request, 'photos/photo.html',{'photo': photo})

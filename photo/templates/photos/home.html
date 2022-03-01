@@ -31,30 +31,16 @@
                 <div class="gallery">
                     <input type="text" placeholder="Search..">
                     <div class="row">
+                        {% for img in image %}
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="{% static 'images/travel/img-1.jpg'%}" class="card-img-top" alt="Travel">
+                                <img src="{{img.image.url}}" class="card-img-top" alt="Travel">
                                 <div class="card-body">
-                                    <a href="{% url 'photo' 10 %}" class="btn-mre">view more</a>
+                                    <!-- @TODO: get photo info button -->
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="{% static 'images/travel/img-2.jpeg'%}" class="card-img-top" alt="Travel">
-                                <div class="card-body">
-                                    <a href="{% url 'photo' 10 %}" class="btn-mre">view more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="{% static 'images/travel/img-3.jpg'%}" class="card-img-top" alt="Travel">
-                                <div class="card-body">
-                                    <a href="{% url 'photo' 10 %}" class="btn-mre">view more</a>
-                                </div>
-                            </div>
-                        </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
