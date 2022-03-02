@@ -34,7 +34,7 @@
                         {% for img in image %}
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="{{img.image.url}}" class="card-img-top" alt="Travel">
+                                <img src="{{img.image.url}}" class="card-img-top" alt="Category">
                                 <div class="card-body">
                                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View More</button>
                                 </div>
@@ -48,11 +48,8 @@
         </div>
     </div>
 
+    <!-- Modal to get Image Info-->
 
-    <!-- MODAL  -->
-    <!-- Button trigger modal -->
-    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Launch static backdrop modal</button> -->
-    <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -61,7 +58,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
