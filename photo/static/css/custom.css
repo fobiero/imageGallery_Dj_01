@@ -58,5 +58,17 @@ a {
 /* NAVBAR  */
 
 .navbar {
+    color: #fff;
     padding: 1.2rem 0;
+    background-color: #0388D1;
+}
+
+.navbar h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+}
+
+.navbar h1 span {
+    font-weight: bolder;
 }
