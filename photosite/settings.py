@@ -48,10 +48,6 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-6=holqg&ox5#@#!7&^&j13er_57+r%o%c=jl!*76glnnf0o-c1'
 
